@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<main>
+
+<h1>Registro de aprendizaje</h1>
+
+<h2>HTML</h2>
+
+<h3>
+Todo esto lo aprendi de <a href="https://www.freecodecamp.org/"> aca. </a>  <!-- <a> Sirve para los links. href="url" o href="#" es link muerto. -->
+</h3>
+
+</head>
+
+<body>
+<p>
+<a href="https://es.wikipedia.org/wiki/LeBron_James"><img src="https://s1.eestatic.com/2020/03/07/actualidad/Actualidad_472963472_147570781_1024x576.jpg" alt="Lebron James"></a>
+</p>
+<!-- Aca puse una imagen de lebron que lleva a su link de wikipedia mediante el <a>. Las imagenes se ponen con el img y el src="url". Siempre hay que poner un alt="descripcion de la imagen" -->
+
+<p>
+Lebron James <a href="https://www.instagram.com/kingjames/"> Instagram </a><br>
+Lebron James <a href="https://twitter.com/KingJames"> Twitter </a><br><br>
+Lebron James en 2019 jugando con Los Angeles Lakers<br>
+Otros equipos donde jugo:
+</p>  <!-- Se usa el <p> para escribir en parrafos, el <br> es un salto de linea. -->
+
+<ul>
+  <li> Cleveland Cavaliers 2003-2010
+  <li> Miami Heat 2011-2014
+  <li> Cleveland Cavaliers 2015-2018
+</ul>  <!-- El <ul> se usa para poner una lista de items sin orden, <li> es para agregar un item. -->
+
+<p>Lista de campeonatos de NBA</p>
+
+<ol>
+  <li> Miami Heat 2012
+  <li> Miami Heat 2013
+  <li> Cleveland Cavaliers 2016
+</ol>  <!-- El <ol> se usa para poner una lista de items con orden. -->
+
+<form action="https://giphy.com/gifs/xTiTnDAP0RiCo9k85W/html5">
+  <label for="goat"><input id="goat" type="radio" name="goat-nogoat" value="goat" checked>
+    GOAT</label>
+  <label for="nogoat"><input id="nogoat" type="radio" name="goat-nogoat" value="nogoat">
+    NO GOAT</label><br>  <!-- <Form> se usa para usar labels y checksboxes. type=radio se usa para una opcion type= checksboxes se usa para multiples opciones. -->
+
+  <label for="lebum"><input id="lebum" type="checkbox" name="nickname" value="lebum">
+    LeBum</label>
+  <label for="kingjames"><input id="kingjames" type="checkbox" name="nickname" value="kingjames" checked>
+    King James</label>
+  <label for="jordan23"><input id="jordan23" type="checkbox" name="nickname" value="jordan23">
+    JORDAN23</label><br>
+
+  <input type="text"
+  placeholder="Enviar tu opinion de Lebron James" required>   <!-- input type="text" es donde se puedo escribir, placeholder es lo que aparece antes del mensaje, button type="submit" es un boton para enviar ese mensaje. -->
+  <button type="submit"> Enviar</button>
+</form>
+
+</body>
+</main>
+</html>
